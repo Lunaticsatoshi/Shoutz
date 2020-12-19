@@ -15,4 +15,8 @@ input RegisterInput {
     password: String!
     confirmPassword: String!
 }
+
+type Mutation {
+    register(registerInput: RegisterInput) : User!
+}
 `
