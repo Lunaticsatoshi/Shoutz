@@ -5,18 +5,14 @@ require('dotenv-safe').config();
 const connectDB = require('./config/db');
 
 const typeDefs = require('./graphql/typeDefs');
+const resolvers = require('./graphql/resolvers');
 
 const main = async () => {
     const app = express();
-    const resolvers = {
-        Query: {
-            hello: () => 'Hello World!!'
-        }
-    };
     const apolloServer = new ApolloServer({
         typeDefs,
         resolvers
-    })
+    });
     
     apolloServer.applyMiddleware({
         app,
