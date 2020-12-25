@@ -18,7 +18,7 @@ input RegisterInput {
 
 type Query {
     me(): User!
-    users: [User]!
+    getUsers: [User]!
 }
 
 type Mutation {
