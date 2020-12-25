@@ -17,7 +17,7 @@ input RegisterInput {
 }
 
 type Query {
-    me(): User!
+    me(userId: ID!): User!
     getUsers: [User]!
 }
 
