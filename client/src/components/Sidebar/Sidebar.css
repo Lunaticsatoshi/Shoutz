@@ -1,5 +1,5 @@
 .sidebar {
-    border-right: 1px solid var(--twitter-background);
+    border-right: 1px solid var(--shoutz-background);
     flex: 0.3;
     /* min-width: 250px; */
     margin-top: 20px;
@@ -8,14 +8,14 @@
   }
   
   .sidebar__twitterIcon {
-    color: var(--twitter-color);
+    color: var(--shoutz-color);
     font-size: 30px !important;
     margin-left: 20px;
     margin-bottom: 20px;
   }
   
   .sidebar__tweet {
-    background-color: var(--twitter-color) !important;
+    background-color: var(--shoutz-color) !important;
     border: none !important;
     color: white !important;
     font-weight: 900 !important;
