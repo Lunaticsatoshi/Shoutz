@@ -29,5 +29,10 @@
 @media only screen and (max-width: 800px) {
   .sidebar__options > h2 {
     display: none;
+    margin-right: 0px;
   }
+
+  /* .sidebar__options > .MuiSvgIcon-root{
+    padding: 10px;
+  } */
 }
