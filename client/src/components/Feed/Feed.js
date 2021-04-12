@@ -1,5 +1,7 @@
-import React from "react";
 import "./Feed.css";
+
+//Components
+import ShoutBox from "../ShoutBox/ShoutBox";
 
 function Feed() {
   return (
@@ -7,6 +9,10 @@ function Feed() {
       <div className="feed__header">
         <h2>Home</h2>
       </div>
+
+      {/* ShoutBox Component */}
+
+      <ShoutBox />
     </div>
   );
 }

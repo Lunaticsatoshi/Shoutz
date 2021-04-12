@@ -1,40 +1,43 @@
 .shoutBox {
-    padding-bottom: 10px;
-    border-bottom: 8px solid var(--shoutz-background);
-    padding-right: 10px;
-  }
-  
-  .shoutBox > form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .shoutBox__input {
-    padding: 20px;
-    display: flex;
-  }
-  
-  .shoutBox__input > input {
-    flex: 1;
-    margin-left: 20px;
-    font-size: 20px;
-    border: none;
-  }
-  
-  .shoutBox__imageInput {
-    border: none;
-    padding: 10px;
-  }
-  
-  .shoutBox__tweetButton {
-    background-color: var(--shoutz-color) !important;
-    border: none !important;
-    color: white !important;
-    font-weight: 900 !important;
-    text-transform: inherit !important;
-    border-radius: 30px !important;
-    width: 80px;
-    height: 40px !important;
-    margin-top: 20px !important;
-    margin-left: auto !important;
-  }
+  padding-bottom: 10px;
+  border-bottom: 8px solid var(--shoutz-background);
+  padding-right: 10px;
+}
+
+.shoutBox > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.shoutBox__input {
+  padding: 20px;
+  display: flex;
+}
+
+.shoutBox__input > input {
+  flex: 1;
+  margin-left: 20px;
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+  font-size: 20px;
+  border: none;
+}
+
+
+.shoutBox__imageInput {
+  border: none;
+  padding: 10px;
+}
+
+.shoutBox__tweetButton {
+  background-color: var(--shoutz-color) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  width: 80px;
+  height: 40px !important;
+  margin-top: 20px !important;
+  margin-left: auto !important;
+}
