@@ -25,3 +25,9 @@
 .sidebar__options--active {
   color: var(--shoutz-color);
 }
+
+@media only screen and (max-width: 800px) {
+  .sidebar__options > h2 {
+    display: none;
+  }
+}
