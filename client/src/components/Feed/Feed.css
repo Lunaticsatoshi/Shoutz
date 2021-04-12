@@ -1,5 +1,5 @@
 .feed {
-  flex: 0.45;
+  flex: 0.5;
   border-right: 1px solid var(--shoutz-background);
   min-width: fit-content;
   overflow-y: scroll;
@@ -22,6 +22,7 @@
   background-color: rgb(0, 0, 0);
   z-index: 100;
   border-right: 1px solid var(--shoutz-background);
+  border-bottom: 1px solid var(--shoutz-background);
   padding: 15px 20px;
 }
 
