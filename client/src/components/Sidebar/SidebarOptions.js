@@ -1,4 +1,3 @@
-import React from 'react'
 import './SidebarOptions.css'
 
 function SidebarOptions({Icon, text, active}) {
