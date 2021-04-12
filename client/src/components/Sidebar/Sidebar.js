@@ -33,7 +33,7 @@ function Sidebar() {
 
       {/* Shoutz Button */}
       <Button variant="outlined" className="sidebar__tweet" fullWidth>
-        Shout
+        Shoutz
       </Button>
     </div>
   );
